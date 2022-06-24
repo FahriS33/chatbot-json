@@ -1,0 +1,61 @@
+
+{"intents": [
+    {"tag": "selamlama",
+     "patterns": ["Merhaba", "Selam"],
+     "responses": ["Merhaba", "Selam"],
+     "context_set": ""
+    },
+    {"tag": "ayrılma",
+     "patterns": ["by", "görüşürüz", "tekrar görüşmek üzere", "ben gidiyorum", "bay bay"],
+     "responses": ["görüşürüz", "tekrar konuşmak üzere", "bay bay"],
+     "context_set": ""
+    },
+    {"tag": "çocukluk dönemi",
+        "patterns": ["Çocuk", "Çocuğuma aşı","Çocuk için hangi aşılar","Çocukluk dönemi aşı takviminde","Çocuk aşıları"],
+        "responses": ["difteri, boğmaca,  tetanoz, çocuk felci, hepatit B, hepatit A, H. influenzae tip b, tüberküloz, kızamık, kabakulak, kızamıkçık, suçiçeği ve pnömokoktur(zatürre) olması gerekir."],
+        "context_set": ""
+    },
+    {"tag": "pnömokok",
+        "patterns": ["Pnömokok aşısı nedir?", "Pnömokok aşısı ne işe yarar?","Pnömokok kimler için önemlidir?"],
+        "responses": ["Aşılanma özellikle yaşlı kişiler için önemlidir. Yaşlandıkça bağışıklık sistemi zayıflar ve enfeksiyonlarla savaşmak daha zor olabilir. 65 yaş ve üzerindeki kişilerin pnömokok bakterisinin neden olduğu zatürre, kan iltihabı, menenjit gibi ciddi hastalıklardan korunması amacıyla iki pnömokok aşısı önerilmektedir. Konjuge pnömokok aşısı ücretsiz olarak sağlık kuruluşlarında uygulanmaktadır. Polisakkarit pnömokok aşısı ise Sağlık Uygulama Tebliği kapsamında tanımlanan risk gruplarına, reçete edilmesi halinde bedelleri karşılanmaktadır. Aşılama şemaları sağlıklı olma ya da eş zamanlı riski arttıran bir hastalık bulunma durumuna göre farklılaşmaktadır. Bu aşılarla ilgili bilgi sahibi olmak için aile hekiminize başvurunuz."],
+        "context_set": ""
+    },
+    {"tag": "kızamık",
+        "patterns": ["kızamık", "kızamık aşısı ne işe yarar?","kızamık aşısı kimler için önemlidir?"],
+        "responses": ["Kızamık hastalığına yakalanmamak için öncelikle aşı yaptırmak gerekir.En çok 5 ve 9 yaş arasındaki çocukları etkileyen kızamık hastalığının önüne geçilmesi için çocukluk döneminde bu aşının yaptırılması gerekir. Kızamık aşısı ile vücuda verilen virüs bağışıklık sistemini güçlendirir. Aynı zamanda bu virüse karşı antikorler üretilir. Antikor koruyucu proteindir. Bu antikorlar ise ilerleyen yaşlarda dahi virüs ile savaşsa bile hasta olunmasının önüne geçilir."],
+        "context_set": ""
+    },
+    {"tag": "kabakulak",
+        "patterns": ["kabakulak aşısı nedir?", "Kabakulak aşısı ne işe yarar?","Kabakulak aşısı hangi dönemde olunmalıdır?"],
+        "responses": ["Kabakulak; virüslerin sebep olduğu; ateş, baş ağrısı, kas ağrısı, yorgunluk, iştah kaybı, kulak altındaki veya çene altındaki bezlerde şişlik ile seyreden ve yaklaşık 7-10 gün süren bulaşıcı bir hastalıktır.En etkili korunma yolu aşılanmadır. İlk doz aşılama sonrası kabakulak enfeksiyonu önleme oranı %78, ikinci doz aşılama sonrası ise %88 civarındadır.1 yaşında ve 4-6 yaş arasında çocuklara yapılmakadır."],
+        "context_set": ""
+    },
+    {"tag": "pnömokok",
+        "patterns": ["Pnömokok aşısı nedir?", "Pnömokok aşısı ne işe yarar?","Pnömokok kimler için önemlidir?"],
+        "responses": ["Aşılanma özellikle yaşlı kişiler için önemlidir. Yaşlandıkça bağışıklık sistemi zayıflar ve enfeksiyonlarla savaşmak daha zor olabilir. 65 yaş ve üzerindeki kişilerin pnömokok bakterisinin neden olduğu zatürre, kan iltihabı, menenjit gibi ciddi hastalıklardan korunması amacıyla iki pnömokok aşısı önerilmektedir. Konjuge pnömokok aşısı ücretsiz olarak sağlık kuruluşlarında uygulanmaktadır. Polisakkarit pnömokok aşısı ise Sağlık Uygulama Tebliği kapsamında tanımlanan risk gruplarına, reçete edilmesi halinde bedelleri karşılanmaktadır. Aşılama şemaları sağlıklı olma ya da eş zamanlı riski arttıran bir hastalık bulunma durumuna göre farklılaşmaktadır. Bu aşılarla ilgili bilgi sahibi olmak için aile hekiminize başvurunuz."],
+        "context_set": ""
+    },
+    {"tag": "kızamıkçık",
+        "patterns": ["kızamıkçık aşısı nedir?", "kızamıkçık aşısı ne işe yarar?","kızamıkçık aşısı hangi dönemde olunmalıdır?"],
+        "responses": ["Kızamıkçık veya rubella, virüslerden kaynaklı bir hastalık türüdür. Damlacık yolu ile bulaşan kızamıkçığın bulaşıcılığı oldukça yüksektir. Virüs ile enfekte olan kişi, deri döküntülerinin başlamasından bir hafta öncesi ve döküntülerin kaybolmasından bir veya iki hafta sonrasına kadarki süreç boyunca bulaştırıcılığa sahiptir.Genellikle çocukluk döneminde görülen bulaşıcı bir hastalık türüdür. "],
+        "context_set": ""
+    },
+    {"tag": "difteri",
+        "patterns": ["difteri aşısı nedir?", "difteri aşısı ne işe yarar?","difteri aşısı hangi dönemde olunmalıdır?"],
+        "responses": ["Difteri nedir sorusuna kısaca: Nefes darlığı gibi ciddi şikâyetlere neden olabilen mikrobik bir solunum yolu enfeksiyonu şeklinde yanıtlanabilir. Difteri, burun ve boğazı, bazen de cildi etkileyebilen çok bulaşıcı ve potansiyel olarak ölümcül bir enfeksiyondur.Ülkemizde şu anda difteri aşısı 5’li karma aşı (DaBT-İPA-Hib) şeklinde uygulanır. Karma aşı 2,4 ve 6. ve 18. aylarda yapılır. Daha sonra ilköğretim 1. sınıfta 4’lü karma (DaBT-İPA) ve 8. sınıfta difteri-tetanoz (Td) şeklinde ikili aşı uygulaması yapılır."],
+        "context_set": ""
+    },
+    {"tag": "boğmaca",
+        "patterns": ["boğmaca aşısı nedir?", "boğmaca aşısı ne işe yarar?","boğmaca aşısı hangi dönemde olunmalıdır?"],
+        "responses": ["Bordetella pertusis adlı bakterinin neden olduğu, kendine has boğulur tarzda öksürükle karakterize, bulaşıcı bir akut solunum yolu hastalığıdır.Boğmaca aşısı genellikle difteri ve tetanoz aşılarıyla birliktedir. DTaP aşısı (asellüler: hücre içermeyen, bakterinin bir kısım proteini bulunan) 7 yaşından küçüklere yapılır. Tdap aşısı rapel olarak 11-18 yaşındaki adolesanlara yapılır. Aşılaması tam yapılmamış 7-10 yaşındaki çocuklara tek doz yapılır. 19 yaş ve üzeri erişkinlere de tek doz Tdap ( Tetanoz- difteri- boğmaca) aşısı uygulanır."],
+        "context_set": ""
+    },
+    {"tag": "tetanoz",
+        "patterns": ["tetanoz aşısı nedir?", "tetanoz aşısı ne işe yarar?","tetanoz aşısı hangi dönemde olunmalıdır?"],
+        "responses": ["Tetanoz aşısı tetanoz toksoidi yani Clostridium tetani bakterisinin hastalığa neden olan toksininin hastalığa yol açmayan fakat bağışıklık oluşturan bir benzerini içerir. Tetanoz aşısı en güçlü bağışıklık oluşturan aşılardan biridir.Tetanoz hastalığına neden olan tetanoz toksinine karşı bağışıklık oluşturur. Aşı tetanoz hastalığının ortaya çıkmasını önler.Çocuklara 2, 4, 6, 18, 48 aylar ve 13 yaşında tetanoz aşısı uygulanır. Daha sonra 10 yılda bir aşı tekrarlanır"],
+        "context_set": ""
+    }
+
+
+]
+}

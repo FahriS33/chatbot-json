@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/0112c873-5cf9-4fd7-8361-cfb871025ff2/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/sanal-asistan",
+    "appService.deploySubpath": "."
+}
