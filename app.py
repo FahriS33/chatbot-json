@@ -118,17 +118,25 @@ def get_bot_response():
                     veri.append(str(response))   
             else:
                 response = "Üzgünüm Seni Anlayamadım"
+                veri = []
+                veri.append(str(response))  
         
         return str(response)
 
 
 @app.route('/json')
 def getjson():
-    return jsonify({'cevap': veri[0]})
+    cvp = {"cevap" : veri[0]}
+    json_string = json.dumps(cvp,ensure_ascii = False)
+    return json_string
+    
+   
 
 if __name__ == "__main__":
         app.run(debug=True ,port=8080,use_reloader=False)
         app.config['JSON_AS_ASCII'] = False 
+
+
 
 
 
